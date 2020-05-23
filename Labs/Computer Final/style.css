@@ -1,0 +1,129 @@
+
+
+* {
+  margin:0;
+}
+
+body{
+  background-image: url("https://www.interface-pol.ch/app/uploads/2018/06/wald-holz.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+nav ul{
+  float: left;
+}
+
+nav ul li{
+  float:left;
+  list-style:none;
+  position: relative;
+}
+
+nav ul li a{
+  display: block;
+  font-family: arial;
+  color: #ffff;
+  font-size: 20px;
+  padding: 30px 30px;
+  margin-top: 60px;
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: #2b262a;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  bottom:1170;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #40383e;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  margin: 4px 10px;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.socials{
+  background-color: #a14dbd;
+  position: fixed;
+  top: 20%;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+.fa-youtube {
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.footer{
+  font-family: 'Roboto';
+  font-style: italic;
+  color: #ffff;
+  font-size: 20px;
+  background-color: #2b262a;
+  padding: 30px 30px;
+  text-decoration: none;
+  text-align: center;
+  list-style-type: none;
+}
+
+.text{
+  text-align: center;
+  list-style-type: none;
+  font-family: 'Optima';
+  font-style: italic;
+  font-style: bold;
+  margin-top: 200px;
+  font-size: 60px;
+}
